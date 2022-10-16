@@ -17,7 +17,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin-left: 10px;
 }
 
 .wrapper p {
@@ -26,11 +25,11 @@
     color: #ffffff;
     z-index: 9999;
     font-size: 48px;
-    margin-bottom: 120px;
+    margin-right: 120px;
 }
 
 .wrapper p::before{
-    content: "";
+    content: '';
     position: absolute;
     width: 200px;
     height: 200px;
@@ -55,14 +54,13 @@
 }
 
 button {
-    border-radius : 18px;
     background-color: #222242;
-    color: #ffffff;
-    border: 1px solid #a9a9a9;
-    outline: 0;
     padding: 10px 38px;
+    border: 1px solid #a9a9a9;
+    border-radius: 28px;
+    color: #fff;
     transition: all .2s ease;
-    margin-left: 50px;
+    outline: 0;
 }
 
 button:not(:last-child){
@@ -78,5 +76,3 @@ button:focus
    color: #f68400;
    box-shadow: 0px 4px 27px -12px #f68400;
 }
-
-
